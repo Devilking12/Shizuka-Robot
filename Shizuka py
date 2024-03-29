@@ -40,7 +40,7 @@ async def init():
     await userbot.start()
     await Shizuka.start()
     try:
-        await Shizuka.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
+        await Shizuka.stream_call("https://graph.org/file/029bf1df4f93265764cf2.mp4")
     except NoActiveGroupCall:
         LOGGER("Shizuka-Robot").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
